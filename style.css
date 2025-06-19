@@ -1,0 +1,94 @@
+body
+{
+background: #EEAECA;
+background: linear-gradient(117deg, rgba(238, 174, 202, 1) 0%, rgba(192, 181, 218, 1) 60%, rgba(148, 187, 233, 1) 100%);color: #4c3392;
+}
+*
+{
+    font-weight:700;
+}
+
+img
+{
+    display:none;
+}
+h1
+{
+    background: #d207d9;
+    background: linear-gradient(227deg, rgb(208, 40, 214) 18%, rgba(33, 2, 110, 1) 42%, rgba(0, 79, 168, 1) 60%);
+    background-clip: text;
+    color: transparent;
+}
+input
+{
+    background-color: inherit;
+    border:2px double #862581;
+}
+input:focus:invalid ~ #wrong
+{
+    display:inline;
+    height: 18px;
+    width: 18px;
+}
+input:focus:valid ~ #correct
+{
+    display:inline;
+    height: 18px;
+    width: 18px;
+}
+input+p
+{
+display:none;
+}
+input:focus+p
+{
+    display: inline;
+    color: #923392;
+}
+input:focus
+{
+    background-color: #d207d9;
+    border-color: rgb(34, 2, 61);
+
+}
+input[type="radio"]:checked
+{
+    transform: scale(1.5);
+    color: #7b0897;
+}
+input[type="radio"]:checked+label
+{
+    font-size: 20px;
+    color:#923392;
+}
+input[type="file"]
+{
+    border:1px dashed;
+}
+#button
+{
+    background-color: #4c3392;
+    border-radius:10%;
+    border-color: #240a6b;
+    color: azure;
+}
+select
+{
+    background-color:rgb(204, 128, 204);
+    border: 2px double #923392 ;
+    color: aliceblue;   
+}
+
+legend
+{
+    font-size: x-large;
+}
+textarea
+{
+    resize: none;
+    background-color: inherit;
+}
+input[type="submit"]:hover
+{
+    transform: scale(1.2);
+}
